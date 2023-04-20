@@ -1,0 +1,9 @@
+Temos duas fábricas abstratas: a PersonagemFactory e a InimigoFactory. Cada uma dessas fábricas possui métodos para criar personagens e inimigos, respectivamente.
+
+Temos também duas fábricas concretas: a SonicFactory e a EggmanFactory. Cada uma dessas fábricas implementa os métodos da fábrica abstrata correspondente e cria personagens e inimigos específicos do jogo Sonic.
+
+As classes Personagem e Inimigo são as classes abstratas para os personagens e inimigos do jogo. E as classes Sonic, Knuckles, Eggman e MetalSonic são as classes concretas que implementam essas abstrações.
+
+Por fim, temos a classe Jogo que utiliza as fábricas para criar os personagens e inimigos e demonstra como eles podem ser movidos e atacados.
+
+Resumidamente, esse código utiliza o padrão Abstract Factory para criar personagens e inimigos em um jogo, permitindo que o jogo seja facilmente expandido com novos personagens e inimigos no futuro.
